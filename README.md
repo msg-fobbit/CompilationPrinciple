@@ -5,7 +5,7 @@
 - TINY+中间代码生成
 每个文件夹包含了对应的代码和docx文档说明（中文版）
 
-语言：Java和C++
+语言：Java和C
 
 欢迎交流！！！
 
@@ -16,6 +16,6 @@ This is a collection of demos I wrote while studying compiler principles:
 - TINY+ intermediate code generation
 Each folder contains the corresponding code and documentation (in Chinese).
 
-Languages: Java and C++
+Languages: Java and C
 
 Feel free to reach out for discussions！！！
