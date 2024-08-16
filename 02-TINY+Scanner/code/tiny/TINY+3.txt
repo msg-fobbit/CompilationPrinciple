@@ -1,0 +1,51 @@
+{ 1、测试关键字 }
+true false or and not int bool string float
+double do while include break continue
+if then else end repeat until read write
+
+{ 2、测试特殊符号 }
+> <= >= , % **
+; := + - * / ( ) < =
+
+{ 3、测试ID，只包含数字和字母，并且不可以以数字开头 }
+int identifier1 
+string IDENTIFIER2  
+double YUsvx2gz 
+float 3identifier {数字不能作为标识符开头}
+bool _underscore {_是无效字符}
+
+{ 4、测试NUM}
+123 4567 0 987654321 
+
+{ 5、测试STRING，STRING不能多行，不能包含' }
+str := ' string with valid characters '
+'string with invalid character (') '
+'string with
+multiple lines'
+
+{6、 测试空白 }
+int    var1
+do
+    if (var1 <= 10) 
+        write('This is a test');
+    
+while (var1 > 0)
+
+
+{8、测试最长匹配原则 }
+*** <=< >=> :=:
+
+
+{ 7、测试注释  }
+{	测试多行注释	}
+{ 
+	这是 TINY+ 中的多行注释。它可以跨越多行。
+}
+{	测试注释前有其他符号	}
+int sum; {  总和  }
+{	测试注释嵌套		}
+{	注释 	{	Nested	}
+{	测试只有注释结束符号	}
+test }
+{	测试只有注释开始符号	}
+{   test

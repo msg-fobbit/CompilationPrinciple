@@ -1,0 +1,12 @@
+isTrue := true
+isFalse :=flase
+while num1 <= num2 or isFalse
+end
+int 2022a, a2022
+str := ' this is a tring but not the end,
+this is the end.'
+int z$
+{a{ab}}
+***
+{AAA
+BBB}
