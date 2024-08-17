@@ -1,0 +1,13 @@
+int A, B, res;
+string D;
+D:= 'res is :';
+res := 1;
+A := 1;
+B := 10;
+do 
+    res := res * A;
+    A := A + 1
+while A<=B;
+write D;
+write res
+

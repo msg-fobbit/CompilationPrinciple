@@ -1,0 +1,9 @@
+bool A;
+int A, B, res;
+string D;
+D:= 'res is :';
+D:= 'res is :' + C;
+res := 1 + 'hello';
+A := 'str';
+D := 213
+

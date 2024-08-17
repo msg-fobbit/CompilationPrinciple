@@ -1,0 +1,32 @@
+int a, b, c;
+float d, e;
+double f;
+string str;
+bool flag;
+
+repeat
+    read a;
+    read b;
+    c := a + b;
+    write c;
+    if c > 10 then
+        str := 'The sum is greater than 10.'
+    else
+        str := 'The sum is not greater than 10.'
+    end;
+    write str;
+    d := a / b;
+    write d;
+    e := a * b;
+    write e;
+    f := d + e;
+    write f;
+    flag := a > b;
+    write flag
+until c >= 100;
+
+a := 0;
+do
+    a := a + 1;
+    write a
+while  a < 10
